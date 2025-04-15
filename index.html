@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="aula3.css">
+  <!-- Ícones do Google (opcional) -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora</h1>
+
+    <input id="campo1" type="text" placeholder="Digite o primeiro valor">
+    <input id="campo2" type="text" placeholder="Digite o segundo valor">
+
+    <select id="operacao">     
+      <option value="somar">Somar</option>
+      <option value="subtrair">Subtrair</option>
+      <option value="multiplicar">Multiplicar</option>
+      <option value="dividir">Dividir</option>
+      <option value="potencia">Potência</option>
+      <option value="raiz">Raiz</option>
+      <option value="porcentagem">Porcentagem</option>
+
+
+    </select>
+
+      <span class="material-icons">calculate</span>
+      
+    <p>Resultado:</p>
+    <div id="resposta"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
